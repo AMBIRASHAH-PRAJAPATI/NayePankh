@@ -1,0 +1,155 @@
+#abouthead {
+    background-image: url(./items/abouthead.jpg);
+    background-size: cover;
+    height: 430px;
+    box-sizing: border-box;
+    padding-top: 12%;
+    position: relative;
+}
+
+#abouthead div {
+    width: 500px;
+    color: white;
+    /* margin: auto  0px 0px 15%; */
+    position: absolute;
+    left: 18%;
+    bottom: 14%;
+}
+
+.whoweimg img {
+    width: 35vw;
+    min-height: 300px;
+    border-radius: 5px;
+}
+.who1dis {
+    padding: 20px 20px 0px 40px;
+    width: 40vw;
+}
+.who1dis p{margin: 0;}
+#howwedis {
+    width: 49vw;
+}
+
+.howweimg img {
+    width: 39vw;
+    min-height: 300px;
+}
+
+#whatis {
+    margin-top: 10vh;
+    padding: 7vh 0px 10vh 0px;
+    background-color: rgb(38, 32, 30);
+    color: white;
+}
+
+#whatis h1 {
+    font-size: 5vw !important;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#whatis p {
+    font-size: 1.3vw;
+    margin: 0px 5vw;
+}
+
+/* volunteers */
+#volunteersec {
+    /* background-color: rgba(255, 136, 0, 0.173); */
+    background-color: rgba(222, 177, 162, 0.263);
+    position: relative;
+    color: black;
+}
+
+#volunteersec svg {
+    position: absolute;
+    z-index: -2;
+}
+
+#volunteersec h1::before {
+    content: "";
+    position: absolute;
+    right: 48%;
+    width: 70px;
+    height: 5px;
+    background-color: #ff6a00da;
+    bottom: -3px;
+
+}
+
+.volunteers {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-auto-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.volunteer,
+.volunteer img {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.voldtl {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 66%;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.734));
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.voldtl h5,
+.voldiscription i {
+    color: #ff6a00da;
+}
+
+.voldtl h5,
+.voldtl p {
+    margin: 0px !important;
+}
+
+.volunteer:hover.volunteer img {
+    transform: scale(1.1);
+}
+
+.volunteer:hover.volunteer .voldtl {
+    opacity: 1;
+}
+
+.voldiscription {
+    
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.voldiscription p,
+.voldiscription ul {
+    color: rgb(87, 87, 87);
+}
+
+.voldiscription ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+@media screen and (max-width:831px) {
+    #abouthead div {
+        width: 50%;
+    }
+    .whoweimg img, .who1dis,#howwedis, .howweimg img{
+        width:100%;
+    }
+    .volunteers {
+        grid-template-columns: repeat(2, 220px);
+    }
+    .volunteer,.volunteer img{width: 220px;}
+
+}
