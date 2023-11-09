@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/NayePankh/static/css/main.1b253401.css",
+    "main.js": "/NayePankh/static/js/main.901122d4.js",
+    "static/js/787.25e54972.chunk.js": "/NayePankh/static/js/787.25e54972.chunk.js",
+    "static/media/img7.webp": "/NayePankh/static/media/img7.9b076c464ede3b409284.webp",
+    "static/media/img1.webp": "/NayePankh/static/media/img1.4a30354d615f6772af14.webp",
+    "static/media/img3.webp": "/NayePankh/static/media/img3.741cb6d502d7eac98832.webp",
+    "static/media/img4.webp": "/NayePankh/static/media/img4.f4a737e3e54042928035.webp",
+    "static/media/whoweare.jpg": "/NayePankh/static/media/whoweare.73fe670020df1d517fb1.jpg",
+    "static/media/newsimg.webp": "/NayePankh/static/media/newsimg.1a21099fab371d7c0c7e.webp",
+    "static/media/img5.webp": "/NayePankh/static/media/img5.ae9c49f5d6e20e8436e1.webp",
+    "static/media/google.svg": "/NayePankh/static/media/google.9554581048e4b92ca3ba8be5628c8458.svg",
+    "static/media/img2.webp": "/NayePankh/static/media/img2.5ab91b8ebe5752b0c9f0.webp",
+    "static/media/img10.webp": "/NayePankh/static/media/img10.ba626d8c3f8ffb1e2ad6.webp",
+    "static/media/img15.jpg": "/NayePankh/static/media/img15.d19e7fc3f847d0c398f8.jpg",
+    "static/media/img12.webp": "/NayePankh/static/media/img12.d4748e11324da4cd3158.webp",
+    "static/media/img14.jpg": "/NayePankh/static/media/img14.fbaedc2a77876d270e3f.jpg",
+    "static/media/abouthead.jpg": "/NayePankh/static/media/abouthead.2781e03c24351eebeb40.jpg",
+    "static/media/img9.webp": "/NayePankh/static/media/img9.fe1c8e7c1bbe04968aa5.webp",
+    "static/media/img11.webp": "/NayePankh/static/media/img11.74fd0483bf1727ad09b4.webp",
+    "static/media/vol3.jpg": "/NayePankh/static/media/vol3.45e971058dfa397e6f58.jpg",
+    "static/media/img6.jpg": "/NayePankh/static/media/img6.35b853d5580f8e8397aa.jpg",
+    "static/media/img13.webp": "/NayePankh/static/media/img13.229def1c705d6b72e835.webp",
+    "static/media/upcom2.jpg": "/NayePankh/static/media/upcom2.8c4a4e9a38cf322d25f6.jpg",
+    "static/media/mission1.jpg": "/NayePankh/static/media/mission1.5d5426a286fa1316db5c.jpg",
+    "static/media/github.svg": "/NayePankh/static/media/github.6414099cfdb13e46482fa5fe5921a8c3.svg",
+    "static/media/upcom1.jpg": "/NayePankh/static/media/upcom1.be160c8d9375e5f9ab52.jpg",
+    "static/media/ngologo.webp": "/NayePankh/static/media/ngologo.2fb8732fce0d05079779.webp",
+    "index.html": "/NayePankh/index.html",
+    "static/media/Vector.svg": "/NayePankh/static/media/Vector.e2247071c461add2119d2b0ff536b1d9.svg",
+    "main.1b253401.css.map": "/NayePankh/static/css/main.1b253401.css.map",
+    "main.901122d4.js.map": "/NayePankh/static/js/main.901122d4.js.map",
+    "787.25e54972.chunk.js.map": "/NayePankh/static/js/787.25e54972.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b253401.css",
+    "static/js/main.901122d4.js"
+  ]
+}
