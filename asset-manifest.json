@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NayePankh/static/css/main.1b253401.css",
-    "main.js": "/NayePankh/static/js/main.901122d4.js",
+    "main.css": "/NayePankh/static/css/main.61cd3541.css",
+    "main.js": "/NayePankh/static/js/main.88dd5772.js",
     "static/js/787.25e54972.chunk.js": "/NayePankh/static/js/787.25e54972.chunk.js",
     "static/media/img7.webp": "/NayePankh/static/media/img7.9b076c464ede3b409284.webp",
     "static/media/img1.webp": "/NayePankh/static/media/img1.4a30354d615f6772af14.webp",
@@ -29,12 +29,12 @@
     "static/media/ngologo.webp": "/NayePankh/static/media/ngologo.2fb8732fce0d05079779.webp",
     "index.html": "/NayePankh/index.html",
     "static/media/Vector.svg": "/NayePankh/static/media/Vector.e2247071c461add2119d2b0ff536b1d9.svg",
-    "main.1b253401.css.map": "/NayePankh/static/css/main.1b253401.css.map",
-    "main.901122d4.js.map": "/NayePankh/static/js/main.901122d4.js.map",
+    "main.61cd3541.css.map": "/NayePankh/static/css/main.61cd3541.css.map",
+    "main.88dd5772.js.map": "/NayePankh/static/js/main.88dd5772.js.map",
     "787.25e54972.chunk.js.map": "/NayePankh/static/js/787.25e54972.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b253401.css",
-    "static/js/main.901122d4.js"
+    "static/css/main.61cd3541.css",
+    "static/js/main.88dd5772.js"
   ]
 }
