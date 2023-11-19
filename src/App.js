@@ -7,6 +7,7 @@ import Recognition from "./components/Recognition";
 import Gototop from "./components/Gototop";
 import Loginsinup from "./components/loginsignup";
 import Certtificate from "./components/Certtificate";
+import Discuss from "./components/Discuss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
@@ -52,6 +53,7 @@ function App() {
           <Route exact path="/about" element={<Aboutus />} />
           <Route exact path="/Certificates" element={<Certtificate />} />
           <Route exact path="/Recognition" element={<Recognition />} />
+          <Route exact path="/Discuss" element={<Discuss />} />
         </Routes>
         <Gototop />
       </Router>

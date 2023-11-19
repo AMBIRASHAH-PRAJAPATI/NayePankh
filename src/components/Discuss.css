@@ -1,0 +1,86 @@
+#discusbg{
+    background-color:rgb(38, 32, 30);;
+    padding-bottom: 50px;
+    color: white;
+}
+#discushead{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding-top: 130px;
+}
+.discussionsec {
+  padding: 20px;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(222, 177, 162, 0.263); 
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+.discusbox {
+    height: 80%;
+    overflow: scroll;
+    padding: 20px; 
+    background-color: rgb(38, 32, 30); 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); 
+}
+.discusbox::-webkit-scrollbar{
+    display: none;
+}
+
+/* user msg */
+.discusbox1 h5{
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: large;
+}
+.userprofile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: salmon;
+}
+.usermsg p {
+    color: rgb(252, 216, 216) !important;
+}
+
+/* input user */
+.discusinputbox p{
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 0px !important
+}
+.discusinputbox form{
+    align-items: center;
+    margin-top: 10px;
+}
+.discusinputbox form #textarea {
+    width: 90%;
+ }
+ #textarea textarea{
+    background-color:rgb(255, 255, 255); 
+    resize: none;
+ }
+ #sendmsg{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+ }
+ #sendmsg i{
+    font-size: 1.2rem;
+ }
+
+ @media screen and (max-width:853px) {
+    .discussionsec {
+        width: 90%;
+      }
+ }

@@ -50,8 +50,8 @@ code {
 /* scroll */
 .navbar.scrolled {
   justify-content: center;
-  gap: 35.3%;
   width: 100%;
+  gap: 15%;
   margin: 0px;
   border-radius: 0px;
   background-color: rgb(255, 255, 255);
@@ -321,14 +321,25 @@ footer{
   color: rgba(228, 132, 13, 0.795);
 }
 
-
+@media screen and (max-width:1237px) {
+.navbar{
+  width: 90%;
+}
+}
 
 @media screen and (max-width:1091px) {
   .navbar {
-    width: 90%;
+    width: 100%;
+    padding: 0px 10px !important;
+  }
+  .logo a img {
+    width: 74px;
+  }
+  .navitem {
+    padding: 0px .3rem;
   }
   .navbar.scrolled {
-    gap: 15%;
+    gap: 5%;
   }
   #featuressec{
     background-color: #ffffff;
@@ -348,7 +359,7 @@ footer{
     width: 80vw;
   }
 }
-@media screen and (max-width:831px) {
+@media screen and (max-width:853px) {
   .navbar{
     padding: 10px 0px;
     width: 75%;

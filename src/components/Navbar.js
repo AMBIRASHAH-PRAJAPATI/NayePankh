@@ -30,6 +30,7 @@ export default function Navbar() {
                         <li className="navitem"><Link to="/Certificates" smooth={true} duration={1000} onClick={comenav}>Our Certificates</Link></li>
                         <li className="navitem"><Link to="/Recognition" smooth={true} duration={1000} onClick={comenav}>Recognition</Link></li>
                         <li className="navitem"><Link to="/Donate" smooth={true} duration={1000} onClick={comenav}>Donate</Link></li>
+                        <li className="navitem"><Link to="/Discuss" smooth={true} duration={1000} onClick={comenav}>Discuss</Link></li>
                         <li className="navitem"><Link to="/Signin" smooth={true} duration={1000} onClick={comenav}>Signin</Link></li>
                     </ul>
                 </div>
