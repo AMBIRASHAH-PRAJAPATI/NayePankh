@@ -48,6 +48,6 @@
   cursor: pointer;
 }
 #signupbtn:disabled{
-  background-color: gray;
+  background-color: gray !important;
   cursor: not-allowed;
 }

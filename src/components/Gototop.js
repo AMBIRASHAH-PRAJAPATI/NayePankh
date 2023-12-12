@@ -13,7 +13,7 @@ function Gototop() {
         width: '50px',
         height: '50px',
         bottom: '50px',
-        right: '50px',
+        left: '50px',
         backgroundColor: '#ff6a00c6',
         color:'white',
         border: 'none',

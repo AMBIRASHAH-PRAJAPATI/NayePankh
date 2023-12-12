@@ -40,7 +40,7 @@ code {
   left: 50%;
   transform: translateX(-50%);
   transition: background-color 0.3s ease;
-  z-index: 100;
+  z-index: 10;
   background-color:rgba(0, 0, 0, 0.38);
   /*   background-color:rgba(0, 0, 0, 0.525); */
   margin: 10px 0px;
@@ -256,7 +256,7 @@ code {
   width: 70%;
   text-align: center;
   margin: auto;
-  z-index: 100;
+  z-index: 5;
 }
 .welcomcontent h1
 {
